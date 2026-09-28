@@ -5,7 +5,7 @@ import java.sql.*;
 public class JDBCConection{
     private static String url="jdbc:postgresql://localhost:5432/Tienda" ;
     private static String user="postgres";
-    private static String contra="00g20gab";
+    private static String contra="contra";
     private Connection conexion;
 
     public Connection getConexion() {
